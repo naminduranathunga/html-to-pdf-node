@@ -1,4 +1,4 @@
-import { create } from 'html-to-pdf-node';
+import { create } from '@namindu/html-to-pdf-node';
 import fs from 'fs';
 
 const html = fs.readFileSync('./template.ejs', 'utf8');

@@ -1,17 +1,17 @@
-html-to-pdf-node library is written based on another library [pdf-creator-node ](https://www.npmjs.com/package/pdf-creator-node ). pdf-creator-node used Handlebars as the template engine. This library uses [EJS template engine](https://ejs.co/#docs) to generate HTML. You can use EJS syntax to generate dynamic content.
+@namindu/html-to-pdf-node library is written based on another library [pdf-creator-node ](https://www.npmjs.com/package/pdf-creator-node ). pdf-creator-node used Handlebars as the template engine. This library uses [EJS template engine](https://ejs.co/#docs) to generate HTML. You can use EJS syntax to generate dynamic content.
 
 # Follow these steps to convert HTML to PDF
 
 - Step 1 - install the pdf creator package using the following command
 
-  `$ npm i html-to-pdf-node`
+  `$ npm i @namindu/html-to-pdf-node`
 
 
 - Step 2 - Add required packages and read HTML template
 
   ```javascript
   //Required package
-  var pdf = require("html-to-pdf-node");
+  var pdf = require("@namindu/html-to-pdf-node");
   var fs = require("fs");
 
   // Read HTML Template
@@ -22,7 +22,7 @@ With ES6 import syntax
 
   ```javascript
   //Required package
-  import pdf from "html-to-pdf-node";
+  import pdf from "@namindu/html-to-pdf-node";
   import fs from "fs";
 
   // Read HTML Template
@@ -72,7 +72,7 @@ This library uses [EJS template engine](https://ejs.co/#docs) to generate HTML. 
             border: "10mm",
             header: {
                 height: "45mm",
-                contents: '<div style="text-align: center;">Author: Shyam Hajare</div>'
+                contents: '<div style="text-align: center;">Footer Text</div>'
             },
             footer: {
                 height: "28mm",
@@ -132,4 +132,4 @@ This library uses [EJS template engine](https://ejs.co/#docs) to generate HTML. 
 
 ### License
 
-html-to-pdf-node is [MIT licensed](./LICENSE).
+@namindu/html-to-pdf-node is [MIT licensed](./LICENSE).

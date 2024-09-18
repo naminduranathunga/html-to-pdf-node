@@ -1,5 +1,5 @@
 /**
- * @package html-to-pdf-node
+ * @package @namindu/html-to-pdf-node
  * @author Namindu Ranathunga
  * @version 1.0.0
  * 2024 

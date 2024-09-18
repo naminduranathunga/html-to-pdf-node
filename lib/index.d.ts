@@ -1,9 +1,9 @@
 /**
- * @package html-to-pdf-node
+ * @package @namindu/html-to-pdf-node
  * @author Namindu Ranathunga
  * @version 1.0.0
  * 2024
- * The original code was converted to typescript and changed the h by Namindu Ranathunga
+ * The original code was converted to typescript and changed by Namindu Ranathunga.
  * Originally written by Shyam Hajare <hajareshyam@gmail.com>
  */
 import * as pdf from 'html-pdf';

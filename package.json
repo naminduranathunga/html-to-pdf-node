@@ -1,13 +1,13 @@
 {
-  "name": "html-to-pdf-node",
-  "version": "1.0.0",
+  "name": "@namindu/html-to-pdf-node",
+  "version": "1.0.1",
   "description": "node pdf creator from html/ejs template",
   "main": "lib/index.js",
   "scripts": {
     "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "homepage": "https://github.com/naminduranathunga",
+  "homepage": "https://github.com/naminduranathunga/html-to-pdf-node",
   "keywords": [
     "pdf",
     "pdf",
@@ -41,11 +41,10 @@
     "node pdf html",
     "pdf in node js",
     "node pdf js",
-    "node",
-    "Shyam Hajare"
+    "node"
   ],
-  "author": "Shyam Hajare",
-  "license": "ISC",
+  "author": "Namindu Ranathunga",
+  "license": "MIT",
   "dependencies": {
     "ejs": "^3.1.10",
     "html-pdf": "^3.0.1"
