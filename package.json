@@ -1,6 +1,6 @@
 {
   "name": "@namindu/html-to-pdf-node",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "node pdf creator from html/ejs template",
   "main": "lib/index.js",
   "scripts": {
